@@ -20,7 +20,7 @@
       .hero-text {
         text-align: center;
         position: absolute;
-        background-color: rgba(210, 105, 30, 0.212);
+        
         left:10%;
         top: 50%;
         width: 60%;
@@ -74,12 +74,7 @@
           height: 300px;
           object-fit: cover;
       }
-
-      h1{
-          width: 40px;
-      }
-
-/*CSS for Testimonial start*/
+    /*CSS for Testimonial start*/
 
 .global-testimonial-container {
   background-color: rgb(30, 47, 47);
@@ -181,9 +176,3 @@
 .pinterest {
   padding-top: 0.9rem;
 }
-
-/*CSS for Footer end*/
-
-
-    
-
