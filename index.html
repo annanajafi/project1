@@ -1,58 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bakery</title>
     <link rel="stylesheet" href="heroimage.css"/>
-</head>
-<body>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img
+            src="https://thumbs.dreamstime.com/z/b%C3%A4ckerei-bakeshop-logo-oder-aufkleber-hauptbacken-brotkonzept-katze-entweicht-auf-ein-dach-vom-ausl%C3%A4nder-120071941.jpg?ct=jpeg"
+            alt="Bakery Logo"
+          />
+        </div>
+        <ul class="navbar">
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#recipes">Recipes</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#brochures">Brochures</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
 
-    <div class="hero-image">
-        <div class="hero-text">
-          <p>Order a Special Cake for Your Special one!!</p>
-          <button>Order Now</button>
+      <div class="background">
+        <h2 style="font-size: 70px">Taste the Difference!</h2>
+        <h4 style="font-size: 35px">Baked with Love, Just for You</h4>
+
+        <div class="signup-container">
+          <h2>Sign In</h2>
+          <form class="signup-form" action="#" method="post">
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+            <div class="forget-pass"><a href="#">Forgot Password?</a></div>
+            <button type="submit">Sign In</button>
+            <div class="signup">Not a member? <a href="#">Sign up now</a></div>
+          </form>
         </div>
       </div>
+    </header>
+
+    <div class="customize-container">
+      <div class="customize-photo">
+        <img
+          src="images/designer_design_your_own_white_1100x.webp"
+          alt="Cake Image"
+        />
+      </div>
+      <div id="customize-options">
+        <h3>Design Your Own Cake</h3>
+        <div class="option-group">
+          <label for="customize-size">Size:</label>
+          <select name="size" id="customize-size">
+            <option value="6">6-inch Cake</option>
+            <option value="8">8-inch Cake</option>
+            <option value="9">9-inch Cake</option>
+            <option value="10">10-inch Cake</option>
+          </select>
+        </div>
+        <div class="option-group">
+          <label for="customize-flavour">Flavour:</label>
+          <select name="flavour" id="customize-flavour">
+            <option value="strawberry">Strawberry Cake</option>
+            <option value="almond">Almond Cake</option>
+            <option value="coconut">Coconut Cake</option>
+            <option value="vanilla">Vanilla Cake</option>
+            <option value="chocolate">Chocolate Cake</option>
+            <option value="carrot">Carrot Cake</option>
+          </select>
+        </div>
+        <div class="option-group">
+          <label for="customize-color">Exterior Colour:</label>
+          <select name="color" id="customize-color">
+            <option value="standard">Standard Colour</option>
+            <option value="solid">Solid Colour</option>
+            <option value="ombre">Ombre (+$15.00)</option>
+          </select>
+        </div>
+        <div class="option-group">
+          <h4>Buttercream Finish</h4>
+          <label
+            ><input type="radio" name="buttercream-finish" value="smooth" />
+            Smooth</label
+          ><br />
+          <label
+            ><input type="radio" name="buttercream-finish" value="rough" />
+            Rough</label
+          ><br />
+          <label
+            ><input type="radio" name="buttercream-finish" value="lined" />
+            Lined</label
+          ><br />
+        </div>
+        <div class="option-group">
+          <h4>Additional Decorations</h4>
+          <label
+            ><input type="checkbox" name="rosettes" /> Rosettes (+$20.00)</label
+          ><br />
+          <label
+            ><input type="checkbox" name="greeting-plaque" /> Add Greeting
+            Plaque (+$5.00 Per Plaque)</label
+          ><br />
+          <label
+            ><input type="checkbox" name="sugar-blossoms" /> Add Sugar Blossoms
+            (+$15.00)</label
+          ><br />
+          <label
+            ><input type="checkbox" name="2d-topper" /> Add 2D Printer
+            Topper</label
+          ><br />
+          <label
+            ><input type="checkbox" name="2d-numbers" /> Add 2D Numbers</label
+          ><br />
+        </div>
+        <div class="option-group">
+          <h4>Quantity</h4>
+          <div class="quantity-selector">
+            <input type="number" id="quantity" value="1" min="1" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="hero-text">
+        <p>Order a Special Cake for Your Special one!!</p>
+        <button>Order Now</button>
+      </div>
+    </div>
 
 
-      <div class="cake-Packages">
+    <div class="cake-Packages">
 
-        <div class="pkg-1">
-          <h1>Wedding Cake</h1>
+      <div class="pkg-1">
+        <h1>Wedding Cake</h1>
          <P><br><strong><Price:99>99</Price:99>-Euro</strong><br><br>Ingredents: Flour:1 cup, Sugar: 1cup, Egg: 2 Butter: 150grams</P><br><br>
          <img  class="img" src="images/wedding-img.jpg"/ width="100px" height="100px">
          <br><br>
-         <button class="btn">Order</button>   
-         </div>
+        <button class="btn">Order</button>
+      </div>
 
-        <div class="pkg-1">
-          <h1>Birthday Cake</h1>
+      <div class="pkg-1">
+        <h1>Birthday Cake</h1>
          <P><br><strong><Price:99>49</Price:99>Euro</strong><br><br>Ingredents: Flour:1 cup, Sugar: 1cup, Egg: 2 Butter: 150grams</P><br><br>
          <img  class="img" src="images/birthday-img.jpg"/ width="100px" height="100px">
          <br><br>
-         <button class="btn">Order</button>   
-         </div>
+        <button class="btn">Order</button>
+      </div>
 
-         <div class="pkg-1">
-          <h1>Anniversary Cake</h1>
+      <div class="pkg-1">
+        <h1>Anniversary Cake</h1>
          <P><br><strong><Price:99>130</Price:99>Euro</strong><br><br>Ingredents: Flour:1 cup, Sugar: 1cup, Egg: 2 Butter: 150grams</P><br><br>
          <img  class="img" src="images/annivarsry-img.jpg"/ width="100px" height="100px">
          <br><br>
-         <button class="btn">Order</button>   
-         </div>
+        <button class="btn">Order</button>
+      </div>
 
-         <div class="pkg-1">
-          <h1>Special Cake</h1>
+      <div class="pkg-1">
+        <h1>Special Cake</h1>
          <P><br><strong><Price:99>45</Price:99>-Euro</strong><br><br>Ingredents: Flour:1 cup, Sugar: 1cup, Egg: 2 Butter: 150grams</P><br><br>
          <img  class="img" src="images/birthday-img.jpg"/ width="100px" height="100px">
          <br><br>
-         <button class="btn">Order</button>   
-         </div>
+        <button class="btn">Order</button>
+      </div>
   
 
   
         
-      </div>
-</body>
+    </div>
+  </body>
 </html>
