@@ -78,4 +78,112 @@
       h1{
           width: 40px;
       }
+
+/*CSS for Testimonial start*/
+
+.global-testimonial-container {
+  background-color: rgb(30, 47, 47);
+  display: flex;
+}
+
+.testimonial-container {
+  display: flex;
+}
+
+.testimonial-img .person-img {
+  width: 150px;
+  height: 150px;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.testimonial-container p {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 4rem;
+  margin-right: 8rem;
+}
+
+.mid-global-container {
+  background-color: rgb(30, 47, 47);
+}
+
+.mid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.lower-global-container {
+  background-color: rgb(30, 47, 47);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.star-img {
+  width: 30px;
+  height: 30px;
+  margin-top: 0rem;
+}
+
+.Google-text {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 18rem;
+}
+/*CSS for Testimonial end*/
+
+/*CSS for Footer start*/
+
+#footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #333;
+  border-radius: 3px;
+  flex-direction: column;
+}
+
+#footer h2 {
+  margin-top: 2rem;
+  font-family: pacifico;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+#footer p {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(53, 134, 134);
+  font-size: 0.9rem;
+}
+
+.social-media {
+  /* border: 1px solid red; */
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.pinterest__media:hover {
+  filter: sepia(2);
+}
+
+.youtube:hover {
+  filter: sepia(2);
+}
+
+.pinterest:hover {
+  filter: sepia(2);
+}
+
+.pinterest {
+  padding-top: 0.9rem;
+}
+
+/*CSS for Footer end*/
+
+
     
+
