@@ -1,42 +1,145 @@
+body,
+html {
+  height: 100%;
+}
+.hero-image {
+  background-image: url("heroimage.jpg");
 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  border: 5px solid rgb(108, 108, 139);
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  width: 70%;
+  background-color: rgb(221, 202, 202);
+  height: 30%;
+  font-size: 50px;
+}
+button {
+  background-color: rgb(15, 15, 15);
+  font-size: 20px;
+  padding: 6px;
+  color: white;
+}
+button:hover {
+  background-color: #cccccc;
+  color: red;
+}
 
-    body , html {
-        height: 100%;
-      }
-      .hero-image {
-      
-        background-image:url("heroimage.jpg");
-        
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-     border: 5px solid rgb(108, 108, 139);
-      }
-      .hero-text {
-        text-align: center;
-        position: absolute;
-        left:10%;
-        top: 50%;
-        width: 70%;
-        background-color: rgb(221, 202, 202);
-       height: 30%;
-        font-size: 50px;
-      }
-      button {
-        background-color: rgb(15, 15, 15);
-        font-size: 20px;
-        padding : 6px;
-        color:white;
-      }
-      button:hover {
-        background-color: #cccccc;
-        color:red;
-      }
+.cake-packages {
+  display: flex;
+  background-color: tomato;
+  border: 2px solid blue;
+  flex-direction: column;
+}
 
-      .cake-packages{
-          display: flex;
-          background-color: tomato;
-          border: 2px solid blue;
-          flex-direction: column;
-      }
+/*CSS for Testimonial start*/
+
+.global-testimonial-container {
+  background-color: rgb(30, 47, 47);
+  display: flex;
+}
+
+.testimonial-container {
+  display: flex;
+}
+
+.testimonial-img .person-img {
+  width: 150px;
+  height: 150px;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.testimonial-container p {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 4rem;
+  margin-right: 8rem;
+}
+
+.mid-global-container {
+  background-color: rgb(30, 47, 47);
+}
+
+.mid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.lower-global-container {
+  background-color: rgb(30, 47, 47);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.star-img {
+  width: 30px;
+  height: 30px;
+  margin-top: 0rem;
+}
+
+.Google-text {
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 18rem;
+}
+/*CSS for Testimonial end*/
+
+/*CSS for Footer start*/
+
+#footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #333;
+  border-radius: 3px;
+  flex-direction: column;
+}
+
+#footer h2 {
+  margin-top: 2rem;
+  font-family: pacifico;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+#footer p {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(53, 134, 134);
+  font-size: 0.9rem;
+}
+
+.social-media {
+  /* border: 1px solid red; */
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.pinterest__media:hover {
+  filter: sepia(2);
+}
+
+.youtube:hover {
+  filter: sepia(2);
+}
+
+.pinterest:hover {
+  filter: sepia(2);
+}
+
+.pinterest {
+  padding-top: 0.9rem;
+}
+
+/*CSS for Footer end*/
